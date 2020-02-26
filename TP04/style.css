@@ -1,0 +1,88 @@
+div{
+    border: 1px dashed black;
+}
+#robot{
+    width: 400px;
+    height: 600px;
+
+}
+#tete{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 80% 80% 0% 0%;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    left: 20%;
+    border: 20%
+    transition-property: width 2s linear;
+    background-color: rgb(154, 211, 68);
+
+}
+#tete:hover{
+    width: 40%;
+}
+#main{
+    display: inline;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+#pieds{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: space-evenly;
+    background-color: white;
+    background-color: rgb(154, 211, 68);
+}
+#md, #mg, #pg, #pd{
+    width: 50px;
+    height: 80%;
+    background-color: rgb(154, 211, 68);
+    border-radius: 20px;
+    position: absolute;
+}
+#pg, #pd{
+    position: relative;
+    bottom: 40px;
+    width: 14%;
+    border-radius: 0 0 30px 30px;
+
+    
+}
+#corps{
+    width: 150px;
+    height: 180px;
+    top: 42px;
+    border-radius: 0 0 25px 25px;
+    background-color: rgb(154, 211, 68);
+    
+
+
+}
+#od,#og{
+    position: relative;
+    top: 40%;
+    width: 10%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#pg:hover{
+    transform: rotate(20deg);
+}
+#pd:hover{
+    transform: rotate(-20deg);
+}
+#pg{
+    left: -50px;
+}
+#pd{
+    right: -50px;
+}
+
+
