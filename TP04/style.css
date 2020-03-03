@@ -7,9 +7,10 @@ div{
 
 }
 #tete{
-    width: 400px;
-    height: 30px;
+    width: 170px;
+    height: 75px;
     display: flex;
+    top: 90px;
     justify-content: space-around;
     border-radius: 80% 80% 0% 0%;
     border-radius: 100px 100px 0 0;
@@ -21,12 +22,13 @@ div{
 
 }
 #tete:hover{
-    width: 40%;
+    width: 30%;
+
 }
 #main{
     display: inline;
-    width: 400px;
-    height: 40px;
+    width: 350px;
+    height: 125px;
     border-radius: 30px;
 
 }
@@ -39,28 +41,35 @@ div{
     background-color: rgb(154, 211, 68);
 }
 #md, #mg, #pg, #pd{
-    width: 50px;
-    height: 80%;
+    width: 40px;
+    height: 90px;
     background-color: rgb(154, 211, 68);
     border-radius: 20px;
     position: absolute;
+
 }
 #pg, #pd{
     position: relative;
-    bottom: 40px;
-    width: 14%;
-    border-radius: 0 0 30px 30px;
-
-    
+    bottom: 40%;
+    width: 40%;
+    border-radius: 30px;
+    justify-content: 60%;
+    position: relative;
+    top: -92px;
+    left: 125px;
+    height: 75px; 
 }
+
+
 #corps{
-    width: 150px;
-    height: 180px;
+    width: 170px;
+    height: 160px;
     top: 42px;
     border-radius: 0 0 25px 25px;
     background-color: rgb(154, 211, 68);
+    justify-content: center;
+    margin: 80px;
     
-
 
 }
 #od,#og{
@@ -79,10 +88,16 @@ div{
     transform: rotate(-20deg);
 }
 #pg{
-    left: -50px;
+    left: 105px;
 }
 #pd{
     right: -50px;
 }
-
-
+#md{
+    right: 1225px;
+    top: 190px;
+}
+#mg{
+    left: 40px;
+    top: 190px;
+}
