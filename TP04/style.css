@@ -11,15 +11,14 @@ div{
     height: 75px;
     display: flex;
     top: 90px;
+    background-color: rgb(154, 211, 68);
     justify-content: space-around;
     border-radius: 80% 80% 0% 0%;
     border-radius: 100px 100px 0 0;
     position: relative;
     left: 20%;
     border: 20%
-    transition-property: width 2s linear;
-    background-color: rgb(154, 211, 68);
-
+    
 }
 #tete:hover{
     width: 30%;
@@ -30,6 +29,7 @@ div{
     width: 350px;
     height: 125px;
     border-radius: 30px;
+    position: relative;
 
 }
 #pieds{
@@ -38,7 +38,7 @@ div{
     height: 30px;
     justify-content: space-evenly;
     background-color: white;
-    background-color: rgb(154, 211, 68);
+    border: none;
 }
 #md, #mg, #pg, #pd{
     width: 40px;
@@ -94,10 +94,16 @@ div{
     right: -50px;
 }
 #md{
-    right: 1225px;
-    top: 190px;
+    right: -300px;
+    top: 100px;
 }
 #mg{
-    left: 40px;
-    top: 190px;
+    left: 30px;
+    top: 100px;
+}
+#mg:hover{
+    transform: rotate(20deg);
+}
+#md:hover{
+    transform: rotate(-20deg);
 }
