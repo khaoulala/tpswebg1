@@ -1,7 +1,6 @@
 h2{
     color: white;
     border: 4px solid gray;
-<<<<<<< HEAD
     background-color:  black   
 }
 
@@ -9,52 +8,34 @@ p{
     color: black;
 }
 
+a{
+    padding: 5px;
+}
 h1{
-    color: rgb(207, 112, 144);
+    color: #bba7a7;
     font-family: 'Lobster', cursive;
     font-size: 60px;
     text-align: center;
+}
+h3{
+    color: rgb(88, 36, 36);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
     background-color: rgb(255, 255, 255);     
 }
+#Homes_pics{
+    display: inline-block;
+    width: 40%; 
+}
 #image1,#image2,#image3{
-    padding: 20px;
-    display: inline-block
-     
+width: 30%;
+display: inline-block;
 }
 .art-img,.art1-img,.art2-img{
-    width: 160px; 
-   
-}
-
-
-
-=======
-    background-color:  black
-    
-}
-p{
-    color: black;
-    
-    
-}
-h1{
-    color: rgb(207, 112, 144);
-    font-family: 'Lobster', cursive;
-    font-size: 50px
-}
-
-body{
-    background-color: rgb(255, 255, 255);
-     text-align:center;       
-     display:inline-block;
-}
-.art-img{
-    width: 700px;
-    float: center;
+    width: 80%;
     border-radius: 50%;
-   
+    border-color: blanchedalmond;
+
 }
->>>>>>> 1217616633ede0b5211376f3becb8750ebe7bb47
