@@ -1,24 +1,32 @@
-function Member(name,id,grade){
-    this.name=name;
+
+function Member(id,name,grade){
     this.id=id;
+    this.name=name;
     this.grade=grade;
-    this.toString(){
-        let str="";
-        return str;
+    this.toString = function() {
+            return "ID: "+this.id+", Name: "+this.name+", Grade: "+this.grade;
+          }
+    }
+
+    function team() {
+        this.members  = new Array();
+        this.add = function(member) {
+          var indice = this.members.length;
+          this.members[indice] = member;
+          return indice;
+    }
+    this.toString= function(){
+        return this.members.join("\n");
     }
 }
-function Team(name,id){
-    this.name= name;
-    this.id = id;
-    this.members = new Array();
-    this.addMember=function(m){
-        this.members.push(m);
-    }
-}
+var Team = new team();
+ 
+Team.add(new member(1, "Rabab", "A"));
+Team.add(new member(2, "Rajaa", "C"));
+Team.add(new member(3, "Ahmed", "B"));
+Team.add(new member(4, "Salah", "F"));
 
  
-var m1 =new Member("Rabab", 1, "A");
-var m2 =new Member("Rajaa", 2, "C");
-var m3 =new Member("Ahmed", 3, "B");
-var m4 =new Member("Salah", 4, "F");
- 
+document.writeln(Team);
+
+
